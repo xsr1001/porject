@@ -1,0 +1,3 @@
+通过数据库表自动生成对象和相关查询
+
+mvn mybatis-generator:generate
