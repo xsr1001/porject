@@ -1,9 +1,153 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="j_BNcCM02TORz0IMvBZT">
-    <mxGraphModel>
+    <mxGraphModel dx="1293" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" value="塔防游戏 (Tower Defense) 系统架构图" vertex="1">
+          <mxGeometry height="40" width="600" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_layer1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingTop=5;spacingLeft=10;" value="表现层 / 前端交互 (Presentation Layer)" vertex="1">
+          <mxGeometry height="140" width="850" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_layer2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=2;fillColor=#EAFAF1;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingTop=5;spacingLeft=10;" value="核心玩法逻辑层 (Core Gameplay Layer)" vertex="1">
+          <mxGeometry height="340" width="850" x="50" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_layer3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F39C12;strokeWidth=2;fillColor=#FEF9E7;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingTop=5;spacingLeft=10;" value="数据与配置层 (Data &amp; Configuration Layer)" vertex="1">
+          <mxGeometry height="140" width="850" x="50" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_layer4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7F8C8D;strokeWidth=2;fillColor=#F2F3F4;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingTop=5;spacingLeft=10;" value="引擎与基础设施层 (Engine &amp; Infrastructure)" vertex="1">
+          <mxGeometry height="110" width="850" x="50" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_backend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#8E44AD;strokeWidth=2;fillColor=#F4ECF7;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingTop=5;spacingLeft=10;" value="外部服务 / 后端 (External Services)" vertex="1">
+          <mxGeometry height="630" width="270" x="930" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n_ui" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="UI / HUD 管理器&lt;br&gt;(菜单, 商店, 状态显示)" vertex="1">
+          <mxGeometry height="60" width="180" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n_render" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="渲染与动画系统&lt;br&gt;(2D/3D, 特效, 血条)" vertex="1">
+          <mxGeometry height="60" width="180" x="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n_input" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="输入控制系统&lt;br&gt;(点击, 拖拽, 放置)" vertex="1">
+          <mxGeometry height="60" width="180" x="540" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n_gamemgr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=2;fillColor=#D5F5E3;fontSize=12;fontStyle=1;align=center;" value="游戏管理器 (Game Manager)&lt;br&gt;全局状态与流程控制" vertex="1">
+          <mxGeometry height="60" width="220" x="380" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n_map" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="地图与寻路系统&lt;br&gt;(Grid, A* / 航点寻路)" vertex="1">
+          <mxGeometry height="60" width="180" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="n_economy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="经济系统&lt;br&gt;(金币, 生命, 分数)" vertex="1">
+          <mxGeometry height="60" width="160" x="720" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="n_wave" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="波次管理 (Wave Manager)&lt;br&gt;敌人生成与难度曲线" vertex="1">
+          <mxGeometry height="60" width="180" x="120" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n_combat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="战斗与碰撞系统&lt;br&gt;(弹道, 范围伤害, 状态)" vertex="1">
+          <mxGeometry height="60" width="200" x="340" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n_enemy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="敌人系统 (Enemy System)&lt;br&gt;移动, 血量, 状态机" vertex="1">
+          <mxGeometry height="60" width="180" x="580" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n_tower" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#27AE60;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="防御塔系统 (Tower System)&lt;br&gt;攻击逻辑, 升级, 出售, 范围" vertex="1">
+          <mxGeometry height="60" width="200" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="d_level" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F39C12;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="关卡配置数据&lt;br&gt;(地图布局, 波次表)" vertex="1">
+          <mxGeometry height="60" width="180" x="100" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d_stats" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F39C12;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="实体数值配置&lt;br&gt;(塔/敌人属性表)" vertex="1">
+          <mxGeometry height="60" width="180" x="340" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d_save" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#F39C12;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="存档与读档系统&lt;br&gt;(本地/云端进度)" vertex="1">
+          <mxGeometry height="60" width="180" x="580" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="e_engine" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7F8C8D;strokeWidth=2;fillColor=#D5D8DC;fontSize=13;fontStyle=1;align=center;" value="游戏引擎 (Unity / Unreal / Godot)" vertex="1">
+          <mxGeometry height="50" width="280" x="120" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="e_audio" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7F8C8D;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="音频系统 (BGM / SFX)" vertex="1">
+          <mxGeometry height="50" width="160" x="460" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="e_physics" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7F8C8D;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="物理引擎 (碰撞检测)" vertex="1">
+          <mxGeometry height="50" width="160" x="660" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="b_rank" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#8E44AD;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="排行榜系统" vertex="1">
+          <mxGeometry height="50" width="180" x="970" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="b_cloud" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#8E44AD;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="云存档与账号系统" vertex="1">
+          <mxGeometry height="50" width="180" x="970" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="b_iap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#8E44AD;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="内购与广告 SDK" vertex="1">
+          <mxGeometry height="50" width="180" x="970" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="b_analytics" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#8E44AD;strokeWidth=1;fillColor=#ffffff;fontSize=12;align=center;" value="数据埋点与分析" vertex="1">
+          <mxGeometry height="50" width="180" x="970" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="e_input_mgr" edge="1" parent="1" source="n_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2980B9;strokeWidth=2;endArrow=classic;endFill=1;" target="n_gamemgr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_input_map" edge="1" parent="1" source="n_input" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2980B9;strokeWidth=2;endArrow=classic;endFill=1;" target="n_map" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ui_mgr" edge="1" parent="1" source="n_ui" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2980B9;strokeWidth=2;endArrow=classic;endFill=1;" target="n_gamemgr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ui_eco" edge="1" parent="1" source="n_ui" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2980B9;strokeWidth=2;endArrow=classic;endFill=1;" target="n_economy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_render_all" edge="1" parent="1" source="n_gamemgr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2980B9;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_render" value="状态同步">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mgr_wave" edge="1" parent="1" source="n_gamemgr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;" target="n_wave" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mgr_eco" edge="1" parent="1" source="n_gamemgr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;" target="n_economy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wave_enemy" edge="1" parent="1" source="n_wave" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_enemy" value="生成敌人">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_enemy_combat" edge="1" parent="1" source="n_enemy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_combat" value="受击/死亡">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tower_combat" edge="1" parent="1" source="n_tower" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_combat" value="发射/范围">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_combat_eco" edge="1" parent="1" source="n_combat" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_economy" value="击杀奖励">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_combat_mgr" edge="1" parent="1" source="n_combat" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#E74C3C;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_gamemgr" value="扣除生命">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_eco_tower" edge="1" parent="1" source="n_economy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#27AE60;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="n_tower" value="建造/升级花费">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_map_data" edge="1" parent="1" source="n_map" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F39C12;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d_level" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wave_data" edge="1" parent="1" source="n_wave" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F39C12;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d_level" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tower_data" edge="1" parent="1" source="n_tower" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F39C12;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d_stats" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_enemy_data" edge="1" parent="1" source="n_enemy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F39C12;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d_stats" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mgr_save" edge="1" parent="1" source="n_gamemgr" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#F39C12;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d_save" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_data_engine" edge="1" parent="1" source="d_level" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#7F8C8D;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;" target="e_engine" value="资源加载">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_save_cloud" edge="1" parent="1" source="d_save" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8E44AD;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b_cloud" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_eco_rank" edge="1" parent="1" source="n_economy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8E44AD;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b_rank" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ui_iap" edge="1" parent="1" source="n_ui" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8E44AD;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b_iap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
