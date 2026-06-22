@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="YpckTfg4vYLL8tQjMErc">
+    <mxGraphModel dx="2348" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="2026 AI-native创新&amp;quot;动生分图&amp;quot;" vertex="1">
+          <mxGeometry height="40" width="400" x="277" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="创意阶段" vertex="1">
+          <mxGeometry height="30" width="130" x="12" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="MVP阶段" vertex="1">
+          <mxGeometry height="30" width="130" x="242" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="上线发布" vertex="1">
+          <mxGeometry height="30" width="130" x="472" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="规模化阶段" vertex="1">
+          <mxGeometry height="30" width="130" x="702" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="AI趋势分析" vertex="1">
+          <mxGeometry height="45" width="130" x="12" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="痛点识别" vertex="1">
+          <mxGeometry height="45" width="130" x="12" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="需求调研" vertex="1">
+          <mxGeometry height="45" width="130" x="12" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="核心算法假设" vertex="1">
+          <mxGeometry height="45" width="130" x="12" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="最小可行性产品" vertex="1">
+          <mxGeometry height="45" width="130" x="242" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="特征工程" vertex="1">
+          <mxGeometry height="45" width="130" x="242" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="模型训练&lt;br&gt;(g. Small Language Models)" vertex="1">
+          <mxGeometry height="45" width="130" x="242" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="用户测试" vertex="1">
+          <mxGeometry height="45" width="130" x="242" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="快速迭代" vertex="1">
+          <mxGeometry height="45" width="130" x="242" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="产品上线" vertex="1">
+          <mxGeometry height="45" width="130" x="472" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="早期用户获取&lt;br&gt;(Seed Users)" vertex="1">
+          <mxGeometry height="45" width="130" x="472" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="数据收集" vertex="1">
+          <mxGeometry height="45" width="130" x="472" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="性能监控" vertex="1">
+          <mxGeometry height="45" width="130" x="472" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="A/B测试" vertex="1">
+          <mxGeometry height="45" width="130" x="472" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="市场扩张" vertex="1">
+          <mxGeometry height="45" width="130" x="702" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="模型优化&lt;br&gt;(g. Large Language Models)" vertex="1">
+          <mxGeometry height="45" width="130" x="702" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="商业化变现" vertex="1">
+          <mxGeometry height="45" width="130" x="702" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="团队扩充" vertex="1">
+          <mxGeometry height="45" width="130" x="702" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;arcSize=20;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="运营效率提升" vertex="1">
+          <mxGeometry height="45" width="130" x="702" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_1" edge="1" parent="1" source="n1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_2" edge="1" parent="1" source="n1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_3" edge="1" parent="1" source="n1_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_1" edge="1" parent="1" source="n2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_2" edge="1" parent="1" source="n2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_3" edge="1" parent="1" source="n2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_4" edge="1" parent="1" source="n2_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_1" edge="1" parent="1" source="n3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_2" edge="1" parent="1" source="n3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_3" edge="1" parent="1" source="n3_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_4" edge="1" parent="1" source="n3_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_1" edge="1" parent="1" source="n4_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n4_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_2" edge="1" parent="1" source="n4_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n4_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_3" edge="1" parent="1" source="n4_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n4_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_4" edge="1" parent="1" source="n4_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n4_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main1" edge="1" parent="1" source="n1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main2" edge="1" parent="1" source="n2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main3" edge="1" parent="1" source="n3_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n4_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mvp1" edge="1" parent="1" source="n2_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#fa8231;strokeWidth=2;dashed=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_mvp2" edge="1" parent="1" source="n2_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#fa8231;strokeWidth=2;dashed=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n2_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fb1" edge="1" parent="1" source="n2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#e55039;strokeWidth=2;labelBackgroundColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_1" value="市场反馈">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fb2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#e55039;strokeWidth=2;labelBackgroundColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_2" value="市场反馈">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137" y="349" as="sourcePoint" />
+            <mxPoint x="127" y="241.10000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_fb3" edge="1" parent="1" source="n2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#e55039;strokeWidth=2;labelBackgroundColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_4" value="市场反馈">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_data1" edge="1" parent="1" source="n3_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#4b7bec;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_data2" edge="1" parent="1" source="n4_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#4b7bec;strokeWidth=2;dashed=1;sketch=1;curveFitting=1;jiggle=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n3_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_long1" edge="1" parent="1" source="n1_4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#4b7bec;strokeWidth=2;labelBackgroundColor=#ffffff;waypoints=[[20,552],[20,152]];rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_1" value="市场反馈">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-13.04" y="447" as="sourcePoint" />
+            <mxPoint x="-13.04" y="141.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_long2" edge="1" parent="1" source="n2_5" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#e55039;strokeWidth=2;labelBackgroundColor=#ffffff;waypoints=[[380,620],[150,620]];sketch=1;curveFitting=1;jiggle=2;endArrow=none;endFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="n1_4" value="市场反馈">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
