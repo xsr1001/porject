@@ -1,9 +1,152 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Vt3C1nczUekExB6EuKTS">
-    <mxGraphModel>
+    <mxGraphModel dx="1293" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UJW4dSSex3q_ffvIq5iG-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="&lt;h1&gt;问题-解决方案拟合&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="590" width="960" x="10" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="UJW4dSSex3q_ffvIq5iG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="60" width="175" x="675" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="style_box_teal" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#20B2AA;strokeWidth=3;fillColor=none;arcSize=10;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="390" width="260" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="style_box_orange" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E67E22;strokeWidth=3;fillColor=none;arcSize=10;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="390" width="260" x="340" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="style_box_teal_right" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#20B2AA;strokeWidth=3;fillColor=none;arcSize=10;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="390" width="220" x="640" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="title_1" parent="1" style="shape=mxgraph.basic.ribbon;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#20B2AA;strokeWidth=2;fontSize=16;fontStyle=1;align=center;sketch=1;curveFitting=1;jiggle=2;" value="创意阶段" vertex="1">
+          <mxGeometry height="50" width="160" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="title_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF5E7;strokeColor=#E67E22;strokeWidth=2;fontSize=16;fontStyle=1;align=center;sketch=1;curveFitting=1;jiggle=2;" value="MVP 阶段" vertex="1">
+          <mxGeometry height="50" width="140" x="380" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="growth_arrow" edge="1" parent="1" source="title_2" style="endArrow=classic;html=1;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;entryX=0.044;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" target="UJW4dSSex3q_ffvIq5iG-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="75" as="sourcePoint" />
+            <mxPoint x="640" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="growth_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font color=&quot;#C0392B&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i&gt;Growth&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="720" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_title_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" value="问题-解决方案拟合" vertex="1">
+          <mxGeometry height="30" width="200" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="node_problem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;align=center;sketch=1;curveFitting=1;jiggle=2;" value="问题&lt;br&gt;假设" vertex="1">
+          <mxGeometry height="50" width="70" x="60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="node_verify" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;align=center;sketch=1;curveFitting=1;jiggle=2;" value="客户验证" vertex="1">
+          <mxGeometry height="40" width="90" x="200" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="node_proto" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;align=center;sketch=1;curveFitting=1;jiggle=2;" value="概念原型" vertex="1">
+          <mxGeometry height="40" width="90" x="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="center_text_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" value="客户探索" vertex="1">
+          <mxGeometry height="30" width="80" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="cycle_1" edge="1" parent="1" source="node_problem" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeColor=#20B2AA;strokeWidth=3;endArrow=classic;endFill=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="node_verify" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cycle_2" edge="1" parent="1" source="node_verify" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeColor=#20B2AA;strokeWidth=3;endArrow=classic;endFill=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="node_proto" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cycle_3" edge="1" parent="1" source="node_proto" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeColor=#20B2AA;strokeWidth=3;endArrow=classic;endFill=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="node_problem" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sub_title_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" value="产品-市场拟合" vertex="1">
+          <mxGeometry height="30" width="200" x="420" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mvp_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;fontStyle=1;align=left;verticalAlign=top;spacingTop=5;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="180" width="210" x="370" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="doc_icon" parent="1" style="shape=mxgraph.basic.document;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2980B9;strokeWidth=1;fontSize=10;align=center;sketch=1;curveFitting=1;jiggle=2;" value="CLAUDE.md" vertex="1">
+          <mxGeometry height="70" width="60" x="390" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="arch_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=1;fillColor=#FFFFFF;fontSize=11;align=center;sketch=1;curveFitting=1;jiggle=2;" value="架构约束" vertex="1">
+          <mxGeometry height="40" width="90" x="470" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="code_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=1;fillColor=#FFFFFF;fontSize=11;align=center;sketch=1;curveFitting=1;jiggle=2;" value="Claude Code&lt;br&gt;辅助开发" vertex="1">
+          <mxGeometry height="50" width="90" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="doc_link_1" edge="1" parent="1" source="doc_icon" style="endArrow=none;html=1;strokeColor=#2980B9;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" target="arch_box" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="doc_link_2" edge="1" parent="1" source="doc_icon" style="endArrow=none;html=1;strokeColor=#2980B9;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;" target="code_box" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" value="持续反馈与迭代" vertex="1">
+          <mxGeometry height="30" width="120" x="420" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback_loop" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeColor=#20B2AA;strokeWidth=2;endArrow=classic;endFill=1;sketch=1;curveFitting=1;jiggle=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="375" />
+            </Array>
+            <mxPoint x="560" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sub_title_3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" value="增长与优化" vertex="1">
+          <mxGeometry height="30" width="150" x="710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="right_node_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;align=center;sketch=1;curveFitting=1;jiggle=2;" value="早期用户测试" vertex="1">
+          <mxGeometry height="50" width="170" x="670" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="right_node_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;align=center;sketch=1;curveFitting=1;jiggle=2;" value="肖恩测试&lt;br&gt;满意度测量" vertex="1">
+          <mxGeometry height="60" width="170" x="670" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="right_node_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2980B9;strokeWidth=2;fillColor=#EBF5FB;fontSize=12;align=center;sketch=1;curveFitting=1;jiggle=2;" value="留存率拉动&lt;br&gt;用户留存提升" vertex="1">
+          <mxGeometry height="60" width="170" x="670" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="main_link_1" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#20B2AA;strokeWidth=4;endFill=1;sketch=1;curveFitting=1;jiggle=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="305" as="sourcePoint" />
+            <mxPoint x="340" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="link_mvp_r1" edge="1" parent="1" source="mvp_box" style="endArrow=classic;html=1;strokeColor=#20B2AA;strokeWidth=3;endFill=1;exitX=1;exitY=0.2;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="link_mvp_r2" edge="1" parent="1" source="mvp_box" style="endArrow=classic;html=1;strokeColor=#20B2AA;strokeWidth=3;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="link_mvp_r3" edge="1" parent="1" source="mvp_box" style="endArrow=classic;html=1;strokeColor=#20B2AA;strokeWidth=3;endFill=1;exitX=1;exitY=0.8;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="long_feedback_loop" edge="1" parent="1" source="right_node_3" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeColor=#20B2AA;strokeWidth=4;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="feedback_text" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="755" y="450" />
+              <mxPoint x="480" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJW4dSSex3q_ffvIq5iG-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;span style=&quot;font-family: Helvetica; font-weight: 700; text-align: left;&quot;&gt;轻量级 MVP 代码库&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="400" y="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
